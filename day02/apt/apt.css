@@ -1,0 +1,21 @@
+.level {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 15px;
+}
+
+.unselected {
+  background-color: white;
+  border: 1px solid #e6e6e6e6;
+  border-radius: 18px;
+  padding: 10px 15px;
+  margin: 0 3px;
+}

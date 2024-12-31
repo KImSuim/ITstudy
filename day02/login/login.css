@@ -1,0 +1,28 @@
+.selected {
+  display: flex;
+  flex-direction: column;
+}
+.private {
+  border: none;
+  border-radius: 30px;
+  width: 300px;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background-color: #0090ff;
+}
+.enterprise {
+  border: none;
+  border-radius: 30px;
+  width: 300px;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}

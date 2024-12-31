@@ -1,0 +1,10 @@
+button {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 200px;
+  border: none;
+  text-align: left;
+  padding: 15px 0px 15px 10px;
+  margin-bottom: 2px;
+}

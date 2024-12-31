@@ -1,0 +1,21 @@
+.redbox {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.rubybox {
+  background-color: #e592a3;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.skybox {
+  background-color: #60b3d7;
+  width: 300px;
+  height: 300px;
+}
+.yellowbox {
+  background-color: yellow;
+  width: 70%;
+  height: 100px;
+}

@@ -1,0 +1,28 @@
+.free {
+  color: darkgray;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.special {
+  background-color: #ff7777;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.text {
+  color: #80b7e6;
+}
+
+.singup {
+  color: #80b7e6;
+  background-color: white;
+  border: 1px solid #80b7e6;
+  border-radius: 4px;
+  padding: 5px;
+}
