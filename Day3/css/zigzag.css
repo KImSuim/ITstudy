@@ -1,0 +1,57 @@
+.card {
+  margin: 90px;
+  width: 480px;
+  height: 870px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card > img {
+  object-fit: cover;
+  width: 100%;
+  height: 65%;
+}
+
+.textBox {
+  padding: 28px 40px;
+  font-size: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.num {
+  font-size: 40px;
+  display: flex;
+  margin: 10px 0 20px 0;
+  font-weight: 700;
+}
+.sale {
+  color: #f55dd6;
+  margin-right: 5px;
+}
+
+.option {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.pink {
+  background-color: #fff6fe;
+  color: #9c468e;
+}
+.gray {
+  background-color: #f5f6f8;
+  color: #6a7175;
+}
+
+.quantity {
+  font-size: 28px;
+  color: #868f91;
+}
+.quantity i {
+  color: #b8bfc2;
+  margin: 0 3px 5px 0;
+}

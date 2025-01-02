@@ -1,0 +1,25 @@
+.cardBox {
+  margin: 10px;
+}
+.title {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 150px;
+  height: 170px;
+}
+
+.card > img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.localTitle {
+  margin: 3px;
+  font-size: 9px;
+}

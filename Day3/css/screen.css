@@ -1,0 +1,12 @@
+div {
+  height: 100vh;
+}
+.bluebox {
+  background-color: skyblue;
+}
+.orangebox {
+  background-color: orange;
+}
+.greenbox {
+  background-color: green;
+}

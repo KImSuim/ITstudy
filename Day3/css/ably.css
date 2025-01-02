@@ -1,0 +1,40 @@
+.card {
+  margin: 170px;
+  width: 440px;
+  height: 700px;
+}
+.card > img {
+  object-fit: cover;
+  width: 100%;
+  height: 75%;
+  border-radius: 5px;
+}
+
+.num {
+  font-size: 25px;
+  display: flex;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.sale {
+  color: #ff5160;
+  margin: 0 5px 10px 0;
+}
+
+.sub {
+  font-size: 18px;
+  color: #777777;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.ex {
+  margin-bottom: 13px;
+}
+
+.quantity {
+  font-size: 18px;
+  color: #9e9e9e;
+}

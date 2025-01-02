@@ -1,0 +1,18 @@
+/* ">"는 coffee안에 있는 첫 자식에만 적용하겠다 */
+/* 많이 적용을 할 떄 사용 */
+div > button {
+  border: none;
+}
+
+/* 특수한 것만 사용할 때 */
+
+div > span {
+  border: none;
+  color: red;
+}
+
+.profile > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
