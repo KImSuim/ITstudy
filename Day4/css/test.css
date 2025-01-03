@@ -1,0 +1,30 @@
+* {
+  color: black;
+}
+
+body {
+  color: blue;
+}
+
+div {
+  color: orange;
+}
+
+.food {
+  color: green;
+}
+
+/* 
+p {
+  color: black;
+}
+p {
+  color: red;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+} */
