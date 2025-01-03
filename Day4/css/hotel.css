@@ -1,0 +1,50 @@
+.imgbox {
+  width: 400px;
+  height: 530px;
+  border-radius: 10px;
+  margin: 10px;
+
+  color: white;
+  padding: 30px 40px;
+  display: inline-block;
+  background-size: cover;
+}
+.event {
+  margin-bottom: 30px;
+  font-weight: 200;
+
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  /* border-bottom: 1px solid white;
+  padding-bottom: 10px; */
+}
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.info {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.blackFriday {
+  background-image: url("../backgroundIMG/bf.jpg");
+  background-position: 60% 80%;
+}
+
+.poolVilla1 {
+  background-image: url("../backgroundIMG/see.jpg");
+  background-position: 60% 80%;
+}
+
+.fiveStar {
+  background-image: url("../backgroundIMG/f.jpg");
+  background-position: 60% 80%;
+}
+
+.poolVilla2 {
+  background-image: url("../backgroundIMG/see2.jpg");
+  background-position: 60% 80%;
+}
