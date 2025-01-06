@@ -1,0 +1,32 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.boxSize {
+  width: 300px;
+  height: 300px;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.red {
+  background-color: red;
+}
+.minibox {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  /* 부모대비 자식들은 꼭짓점이 가운데 */
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,100 @@
+body {
+  margin: 10px;
+}
+.categoryBox {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.category {
+  background-color: rgb(203, 203, 251);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.category:hover {
+  background-color: rgb(147, 147, 255);
+}
+.icon {
+  font-size: 50px;
+}
+.title {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* 메가커피 메뉴 */
+.megaMenu {
+  position: relative;
+}
+.menuBox {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+
+  width: 300px;
+}
+
+.menuBox2 {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+
+  width: 300px;
+
+  opacity: 0;
+  background-color: white;
+  position: absolute;
+  top: 0;
+}
+.menuBox:hover > .menuBox2 {
+  opacity: 1;
+  /* transform: scale(2); */
+}
+.imgBox {
+  position: relative;
+}
+
+.imgBox > img {
+  width: 300px;
+  transition: all 0.2s;
+}
+.imgBox:hover > img {
+  width: 300px;
+  transform: scale(1.1);
+}
+.kind {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.ice {
+  background-color: blue;
+}
+
+.menuTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+.menuSubTile {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  color: gray;
+}
+.info {
+  padding-top: 10px;
+  color: gray;
+}

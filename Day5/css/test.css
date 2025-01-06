@@ -1,0 +1,17 @@
+.imgbox {
+  width: fit-content;
+
+  position: relative;
+}
+
+.imgbox > i {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: red;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 100%;
+  color: white;
+  font-size: 50px;
+}
