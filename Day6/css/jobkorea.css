@@ -1,0 +1,86 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btnBox{
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: white;
+
+    width: 400px;
+    height: 310px;
+    padding: 18px;
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px;*/
+
+    transition: all 0.2s;
+    
+
+
+
+}
+.btnBox:hover {
+    border: 1px solid white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    top : -15px
+}
+.btnBox > img {
+    width: 50%;
+    height: 30%;
+
+    /* position: absolute; */
+    margin-bottom: 40px;
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    /* align-items:start ; */
+    gap: 20px;
+
+    font-weight: 700;
+
+    /* left: 0; */
+
+}
+.companyName{
+    font-size: 15px;
+    text-align: start;
+    
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+    /* text-align: end; */
+}
+.day{
+    color: gray;
+    /* text-align: end; */
+}
+.off{
+    color: lightgray;
+    text-align: end;
+}
+
+.item > i:hover{
+    color: yellow;
+}

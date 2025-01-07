@@ -1,0 +1,54 @@
+ .column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pizzaBox{
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+background-color: #e9e9e9;
+border-radius: 10px;
+width: 400px;
+height: 500px;
+}
+.pizzaBox > img {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 700;
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+.size{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: yellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
