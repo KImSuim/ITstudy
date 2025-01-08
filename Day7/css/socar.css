@@ -1,0 +1,42 @@
+header {
+  border-bottom: 1px solid lightgray;
+}
+nav {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(67, 167, 255);
+  width: 100px;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+li:hover {
+  font-weight: 700;
+}
+
+/* .catagory {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.title:hover {
+  font-weight: 700;
+} */

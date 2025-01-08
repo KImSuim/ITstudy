@@ -1,0 +1,57 @@
+.jumbotron {
+  background-color: rgb(0, 0, 0);
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+}
+
+.jumbotron > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.contents > strong {
+  font-size: 150px;
+  color: white;
+  font-weight: 700;
+}
+.contents > em {
+  font-size: 20px;
+  color: rgb(175, 175, 175);
+  font-weight: 300;
+}
+.btn {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+
+  width: fit-content;
+  padding: 10px 300px;
+  margin-top: 50px;
+}
+
+.blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0.15;
+}

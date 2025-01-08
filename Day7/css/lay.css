@@ -1,0 +1,89 @@
+.box {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+
+  font-weight: 700;
+
+  width: 350px;
+  height: 600px;
+}
+
+.catagory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.max {
+  font-size: 13px;
+  width: fit-content;
+  padding: 8px 15px;
+  background-color: rgb(241, 241, 241);
+  font-weight: 400;
+  border-radius: 20px;
+}
+.title {
+  font-size: 25px;
+}
+
+.box > img {
+  width: 100%;
+  margin: 30px 0;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 180px;
+  border-bottom: 1px solid lightgray;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.rigth {
+  font-weight: 400;
+}
+
+.price {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 20px 0 40px 0;
+  gap: 5px;
+}
+.num {
+  font-size: 28px;
+  font-weight: 700;
+}
+.won {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btnbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.purchase {
+  width: fit-content;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  background-color: white;
+}
+.estimate {
+  width: fit-content;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}

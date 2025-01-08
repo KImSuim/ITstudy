@@ -1,0 +1,33 @@
+footer {
+  background-color: rgb(27, 27, 27);
+  padding: 100px 0;
+  color: gray;
+}
+footer > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+
+.top > h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.top > ul {
+  display: flex;
+  gap: 10px;
+}
+.aa {
+  display: flex;
+  flex-direction: column;
+}

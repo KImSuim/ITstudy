@@ -1,0 +1,35 @@
+.news > .contents {
+  width: 100%;
+  max-width: 1200px;
+  padding: 200px 0;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.news > .contents > h3 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.item {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  gap: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+article > img {
+  width: 280px;
+}
+article > strong {
+  font-weight: 1000;
+}
