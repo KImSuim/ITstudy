@@ -1,0 +1,34 @@
+footer {
+  background-color: rgb(41, 41, 41);
+
+  color: gray;
+}
+footer > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding: 80px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer > .contents > .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid gray;
+}
+
+footer > .contents > .top > .logo {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+footer > .contents > .top > ul {
+  display: flex;
+  gap: 20px;
+}

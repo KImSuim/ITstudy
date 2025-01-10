@@ -1,0 +1,35 @@
+.news {
+  width: 100%;
+  padding: 200px 0;
+}
+
+.news > .catagory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news > .catagory > h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.news > .catagory > article {
+  display: flex;
+  gap: 10px;
+}
+
+.news > .catagory > article > .item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news > .catagory > article > .item > img {
+  width: 300px;
+}
+
+.news > .catagory > article > .item > strong {
+  font-weight: 700;
+}

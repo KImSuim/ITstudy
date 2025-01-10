@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  margin: 20px;
+}
+.contaner {
+  width: 500px;
+  overflow: scroll;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  width: 1000px;
+  background-color: black;
+
+  overflow: scroll;
+
+  /* overflow: hidden; */
+}
+ul > li {
+  width: fit-content;
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 30px;
+
+  color: gray;
+  font-size: 20px;
+  font-weight: 700;
+
+  padding: 15px 20px;
+}
+ul > li:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+::-webkit-scrollbar {
+  display: none;
+}

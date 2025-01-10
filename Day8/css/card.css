@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(234, 249, 255);
+  margin: 20px;
+}
+article {
+  max-width: 500px;
+  width: 100%;
+  height: 850px;
+  margin: 0 auto;
+  padding: 40px;
+
+  background-color: white;
+  border-radius: 20px;
+}
+nav {
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+figure {
+  width: 300px;
+  height: 300px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  box-shadow: rgba(135, 207, 235, 0.613) 10px 10px 30px 10px;
+  object-fit: contain;
+}
+
+.content > .info > h3 {
+  font-size: 30px;
+  font-weight: 1000;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.content > .info > p {
+  color: gray;
+}
+.content > button {
+  background-color: skyblue;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 20px 100px;
+  font-weight: 700;
+  box-shadow: rgba(135, 207, 235, 0.613) 10px 10px 30px 10px;
+}
+
+.content > ul {
+  font-size: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.content > ul > li {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.circleItem {
+  display: flex;
+  gap: 40px;
+}
+.circle {
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 100%;
+}
+
+.blue {
+  background-color: rgb(0, 144, 201);
+  box-shadow: skyblue 6.95px 6.95px 7.6px;
+}
+.green {
+  background-color: rgb(36, 188, 36);
+  box-shadow: rgb(190, 255, 93) 6.95px 6.95px 7.6px;
+}
+.pink {
+  background-color: rgb(249, 110, 133);
+  box-shadow: pink 6.95px 6.95px 7.6px;
+}
+.purple {
+  background-color: rgb(217, 107, 217);
+  box-shadow: plum 6.95px 6.95px 7.6px;
+}
