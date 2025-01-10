@@ -1,0 +1,50 @@
+/* .box {
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    background-color: blue;
+  }
+} */
+
+body {
+  background-color: aqua;
+}
+/* header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  font-size: 30px;
+  font-weight: 1000;
+
+  position: relative;
+} */
+header > nav > img {
+  width: 112px;
+}
+
+.list {
+  opacity: 1;
+  /* display: flex; */
+  gap: 20px;
+}
+.burger {
+  opacity: 0;
+  /* display: none; */
+}
+
+@media screen and (max-width: 800px) {
+  .burger {
+    opacity: 1;
+    /* display: block; */
+  }
+  .list {
+    opacity: 0;
+    /* display: none; */
+  }
+}
